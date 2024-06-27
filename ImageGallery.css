@@ -1,0 +1,12 @@
+
+.image-gallery {
+max-height: fit-content;
+
+ display:ruby;
+ padding-right: 10px;
+ margin:10px;
+ justify-content: space-around;
+
+ 
+}
+  
