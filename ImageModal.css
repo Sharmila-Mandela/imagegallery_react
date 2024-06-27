@@ -1,4 +1,4 @@
-/* src/components/ImageModal.css */
+
 .image-modal {
     position: fixed;
     top: 0;
@@ -31,14 +31,16 @@
   
   .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
+    top: 12px;
+    right: 17px;
+    font-size: 26px;
     color: black;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.7);
-    border-radius: 50%;
-    padding: 5px;
+  border-radius: 50%;
+  
+   padding:5px;
+   
   }
   
   .previous,
@@ -46,21 +48,23 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
+    
+   background-color: antiquewhite;
     border: none;
     padding: 10px;
     cursor: pointer;
     font-size: 24px;
-    color: rgb(216, 17, 17);
+    color: rgb(16, 15, 15);
     border-radius: 40%;
+    
   }
   
   .previous {
     left: 10px;
-    color: black;
+   
   }
   
   .next {
     right: 10px;
-    color: black;
+
   }
